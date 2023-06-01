@@ -28,11 +28,11 @@
         <tbody>
             <c:forEach var="linea" items="${lineas}">
                 <tr>
-                    <td>${linea.nombre}</td>
-                    <td>${linea.descripcion}</td>
-                    <td>${linea.caracteristicas}</td>
-                    <td>${linea.icono}</td>
-                    <td>${linea.mapa}</td>
+                    <td>${linea.nombre()}</td>
+                    <td>${linea.descripcion()}</td>
+                    <td>${linea.caracteristicas()}</td>
+                    <td>${linea.icono()}</td>
+                    <td>${linea.mapa()}</td>
                 </tr>
             </c:forEach>
         </tbody>

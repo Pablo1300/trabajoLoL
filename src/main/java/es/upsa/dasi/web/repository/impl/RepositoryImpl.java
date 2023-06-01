@@ -5,10 +5,12 @@ import es.upsa.dasi.lol.Linea;
 import es.upsa.dasi.lol.exceptions.LineaException;
 import es.upsa.dasi.web.daos.GatewayDao;
 import es.upsa.dasi.web.repository.Repository;
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
 import java.util.List;
 
+@ApplicationScoped
 public class RepositoryImpl implements Repository
 {
     @Inject

@@ -5,10 +5,12 @@ import es.upsa.dasi.lol.Linea;
 import es.upsa.dasi.lol.exceptions.LineaException;
 import es.upsa.dasi.web.repository.Repository;
 import es.upsa.dasi.web.services.Service;
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
 import java.util.List;
 
+@ApplicationScoped
 public class ServiceImpl implements Service
 {
     @Inject
